@@ -1,0 +1,6 @@
+	#set config for development, remember, abz_developer should only be installed while developing
+config {
+	debug = 1
+	admPanel = 1
+	disablePrefixComment = 0
+}

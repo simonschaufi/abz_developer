@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module 'abz_developer'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="keep_cache_empty">keep cache empty</label>
+			<label index="enabled">Enabled</label>
+			<label index="disabled">Disabled</label>
+			<label index="message_error">Make sure to uninstall abz_developer or deactive the "keep cache empty" function in the Extension Manager before the website goes in production mode!</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+					<label index="keep_cache_empty">keep cache empty</label>
+					<label index="enabled">Aktiviert</label>
+					<label index="disabled">Deaktiviert</label>
+					<label index="message_error">Bitte sicherstellen, dass die Extension abz_developer deinstalliert wird oder die Funktion "keep cache empty" im Erweiterungs Manager deaktiviert wird, bevor die Webseite live geht!</label>
+				</languageKey>
+	</data>
+</T3locallang>

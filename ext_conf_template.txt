@@ -1,0 +1,6 @@
+# cat=abz debug; type=boolean; label=keep cache empty: activate hook to empty all FE cache before rendering page
+emptyFECache = 1
+# cat=abz debug; type=boolean; label=activate sql debug and devlog: debug for sql and devlog is activated (you could do this in install tool also)
+activateDebug = 1
+# cat=abz debug; type=string; label=list of initials for debug messages: comma seperated list of initials you want to see debugs for
+initials =

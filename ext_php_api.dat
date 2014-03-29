@@ -1,0 +1,17 @@
+a:2:{s:4:"meta";a:3:{s:5:"title";s:26:"Developer Helper Extension";s:5:"descr";s:132:"with this extension activated you can stop klicking the clear cache button all the time, frontend cache is kept empty automatically.";s:7:"options";a:2:{s:10:"usageCount";N;s:19:"includeCodeAbstract";N;}}s:5:"files";a:1:{s:14:"MD5_46e471c9b9";a:4:{s:8:"filename";s:25:"class.tx_abzdeveloper.php";s:8:"filesize";i:2033;s:6:"header";a:5:{s:4:"text";s:178:"
+
+
+This Script aims to provide help to team developers
+
+usage like t3lib_utility_Debug::debug()
+tx_abzdeveloper::debug('fr',$var, 'mydebug');
+tx_abzdeveloper::debug('fr',$var);
+
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:1:{i:0;s:64:"@author	Franz Kugelmann <franz.Kugelmann@elementare-teilchen.de>";}s:11:"other_index";a:1:{s:7:"@author";a:1:{i:0;s:56:"Franz Kugelmann <franz.Kugelmann@elementare-teilchen.de>";}}}s:3:"DAT";a:2:{i:1;a:5:{s:6:"header";s:23:"class tx_abzdeveloper {";s:5:"class";i:1;s:11:"parentClass";s:15:"tx_abzdeveloper";s:4:"cDat";a:3:{s:4:"text";s:36:"
+
+helper class for development stuff";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:6:"atLine";i:38;}i:3;a:7:{s:6:"header";s:73:"function debug($initials='', $var = '', $header = '', $group = 'Debug') {";s:11:"parentClass";s:15:"tx_abzdeveloper";s:4:"cDat";a:5:{s:4:"text";s:188:"
+
+wrap normal debug with check for personal initials.
+therefore developer get only the output she chose in localconf,
+no need to comment all debugs in versioning system during development
+";s:5:"param";a:4:{i:0;a:2:{i:0;s:6:"string";i:1;s:35:"$initials your initials or nickname";}i:1;a:2:{i:0;s:6:"string";i:1;s:22:"$var variable to debug";}i:2;a:2:{i:0;s:6:"string";i:1;s:33:"$header additional header to show";}i:3;a:2:{i:0;s:6:"string";i:1;s:17:"$group group info";}}s:6:"return";a:2:{i:0;s:4:"void";i:1;s:0:"";}s:5:"other";a:1:{i:0;s:33:"@see t3lib_utility_Debug::debug()";}s:11:"other_index";a:1:{s:4:"@see";a:1:{i:0;s:29:"t3lib_utility_Debug::debug() ";}}}s:7:"content";s:0:"";s:12:"content_size";i:217;s:13:"content_lines";i:8;s:6:"atLine";i:52;}}}}}
